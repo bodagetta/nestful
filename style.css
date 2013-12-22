@@ -1,0 +1,45 @@
+.temperature{
+	color: #0000FF;
+	text-align: center;
+	font-size: 40pt;
+}
+
+.target_temperature{
+	color: #0000FF;
+	text-align: center;
+	font-size: 10pt;
+}
+
+.control{
+	color: #0000FF;
+	text-align: center;
+	font-size: 40pt;
+}
+
+#controls{
+	color: #0000FF;
+	text-align: center;
+	font-size: 40pt;	
+	z-index: 2;
+	left: 100px;
+}
+
+#login{
+	z-index: 1;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+
+
+div div { 
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div div div{
+	position: relative;
+}

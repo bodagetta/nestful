@@ -1,0 +1,17 @@
+{
+  "name": "Nestful",
+  "description": "A chrome app to control the Nest thermostat.",
+  "version": "0.1",
+
+  "permissions": [
+    "https://*/",
+    "http://*/"   
+  ],
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "16": "thermostat-16.png", "128": "thermostat-128.png" }
+}
